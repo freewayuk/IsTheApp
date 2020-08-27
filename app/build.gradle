@@ -23,7 +23,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
         buildTypes.each {
-            it.buildConfigField("String", "PACKAGE_CHECK_SOCIAL", PACKAGE_CHECK_SOCIAL)
+            it.buildConfigField("String", "PACKAGE_CHECK_SOCIAL", PACKAGE_CHECK_WHATSAPP)
         }
     }
     lintOptions {
